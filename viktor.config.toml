@@ -2,7 +2,8 @@
 #   https://docs.viktor.ai/docs/create-apps/references/viktor-config-toml
 
 app_type = 'editor'
-# assets_path = 'assets'
-# packages = []
-python_version = '3.9'  # '3.9' | '3.10' | '3.11' | '3.12'
+assets_path = "assets"
+packages = []#['gdal-bin']#"libgdal-dev"],"ogr2ogr"]
+python_version = '3.12' #'3.9'  # '3.9' | '3.10' | '3.11' | '3.12'
 # welcome_text = 'welcome.md'
+registered_name = "paris-proof-app"
